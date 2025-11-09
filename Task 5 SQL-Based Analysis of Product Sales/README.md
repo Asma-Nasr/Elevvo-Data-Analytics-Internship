@@ -3,7 +3,7 @@
 2. Use SQL queries to analyze product sales from a relational database.
 3. Answer key business questions: top-selling products, revenue per region, monthly performance.
 4. Write JOINs to combine product and sales tables.
-
+ 
 ## Tools & Libraries:
 - SQL (SQLite, PostgreSQL, MySQL or BigQuery) 
 
@@ -15,5 +15,6 @@
 
 ## Dataset:
 - [chinook Dataset](https://www.kaggle.com/datasets/ranasabrii/chinook)
+
 
 
