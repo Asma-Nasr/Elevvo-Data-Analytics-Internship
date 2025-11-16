@@ -9,7 +9,7 @@
 
 ## Tools & Libraries:
 - Excel
-
+ 
 ## Covered topics:
 - Excel basics | Pivot tables & charts | Business metrics
 
