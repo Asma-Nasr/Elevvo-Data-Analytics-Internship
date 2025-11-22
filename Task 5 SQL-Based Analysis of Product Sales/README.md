@@ -6,7 +6,7 @@
  
 ## Tools & Libraries:
 - SQL (SQLite, PostgreSQL, MySQL or BigQuery) 
-  
+    
 ## Covered Topics
 - SQL queries| JOINs & aggregations| Business logic from raw data
 
