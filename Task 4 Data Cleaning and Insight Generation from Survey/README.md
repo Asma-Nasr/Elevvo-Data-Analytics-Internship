@@ -8,9 +8,10 @@
 
 ## Tools & Libraries:
 - Python or Excel
-
+ 
 ## Covered Topics
 - Data cleaning | Categorical handling |  Reporting
 
 ## Bonus
 - Create a summary dashboard or chart showing top 5 insights.
+
