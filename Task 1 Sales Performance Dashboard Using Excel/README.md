@@ -6,7 +6,7 @@
 3. Clean and organize the data using formatting and formulas.
 4. Use pivot tables to summarize key metrics: total revenue, units sold, monthly trends.
 5. Create clean, readable charts to visualize overall performance.
-
+ 
 ## Tools & Libraries:
 - Excel
  
@@ -19,4 +19,5 @@
 
 ## Dataset:
 - [Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
+
 
