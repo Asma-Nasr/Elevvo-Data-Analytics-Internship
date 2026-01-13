@@ -6,3 +6,4 @@ FROM Genre g
 JOIN Track t ON g.GenreId = t.GenreId
 GROUP BY g.Name
 ORDER BY avg_lenght_minutes DESC;
+ 
