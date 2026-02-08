@@ -1,4 +1,4 @@
-SELECT 
+SELECT  
     t.Name AS TrackName,
     g.Name AS Genre,
     SUM(il.Quantity) AS TotalUnitsSold,
@@ -9,3 +9,4 @@ JOIN Genre g ON t.GenreId = g.GenreId
 GROUP BY t.TrackId
 ORDER BY TotalRevenue DESC
 LIMIT 10;
+
