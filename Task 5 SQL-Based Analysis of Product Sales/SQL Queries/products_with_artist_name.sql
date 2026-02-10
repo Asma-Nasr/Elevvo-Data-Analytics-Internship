@@ -3,7 +3,7 @@ SELECT
     ar.Name AS Artist,
     al.Title AS Album,
     g.Name AS Genre,
-    t.UnitPrice
+    t.UnitPrice 
 FROM Track t
 JOIN Album al ON t.AlbumId = al.AlbumId
 JOIN Artist ar ON al.ArtistId = ar.ArtistId
