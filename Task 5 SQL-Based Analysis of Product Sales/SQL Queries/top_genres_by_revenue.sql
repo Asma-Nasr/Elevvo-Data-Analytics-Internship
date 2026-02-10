@@ -7,3 +7,4 @@ JOIN Track t ON g.GenreId = t.GenreId
 JOIN InvoiceLine i ON t.TrackId = i.TrackId
 GROUP BY g.Name
 ORDER BY Revenue DESC;
+ 
