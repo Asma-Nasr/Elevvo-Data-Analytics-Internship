@@ -1,5 +1,5 @@
 /* 
-How many customers are there in each country?
+How many customers are there in each country? 
 */
 SELECT Country, COUNT(*) AS Customer_count
 FROM Customer
