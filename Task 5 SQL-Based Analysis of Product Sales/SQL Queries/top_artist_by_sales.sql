@@ -2,7 +2,7 @@
 Who are the top 5 artists by total revenue?
 */
 SELECT 
-    ar.Name AS artist,
+    ar.Name AS artist, 
     ROUND(SUM(il.UnitPrice * il.Quantity), 2) AS revenue
 FROM InvoiceLine il
 JOIN Track t ON il.TrackId = t.TrackId
