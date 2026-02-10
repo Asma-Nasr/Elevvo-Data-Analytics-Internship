@@ -1,5 +1,5 @@
 /*
-Which customers have purchased tracks from at least 5 different genres?
+Which customers have purchased tracks from at least 5 different genres? 
 */
 SELECT c.FirstName || ' ' || c.LastName AS customer_name, COUNT(DISTINCT g.GenreId) AS genre_count
 FROM Customer c
