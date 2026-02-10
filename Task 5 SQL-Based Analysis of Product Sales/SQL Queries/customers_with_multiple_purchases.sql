@@ -1,7 +1,7 @@
 /*
 Which customers have made more than 5 invoices?
 */
-SELECT 
+SELECT  
 	i.CustomerId,
 	c.FirstName||' '||c.LastName AS customer_name, 
 	COUNT(i.InvoiceId) AS Invoice_count
