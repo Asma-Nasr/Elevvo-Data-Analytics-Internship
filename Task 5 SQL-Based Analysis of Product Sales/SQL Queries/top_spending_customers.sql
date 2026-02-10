@@ -8,4 +8,4 @@ FROM Customer c
 JOIN Invoice i ON c.CustomerId = i.CustomerId
 GROUP BY i.CustomerId
 ORDER BY Total DESC
-LIMIT 10;
+LIMIT 10; 
