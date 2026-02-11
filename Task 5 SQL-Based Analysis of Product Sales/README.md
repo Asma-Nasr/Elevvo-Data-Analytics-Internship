@@ -1,4 +1,4 @@
-## Description:
+## Description: 
 1. Dataset (Recommended): Chinook Database [Kaggle](https://www.kaggle.com/).
 2. Use SQL queries to analyze product sales from a relational database.
 3. Answer key business questions: top-selling products, revenue per region, monthly performance.
@@ -15,6 +15,7 @@
  
 ## Dataset:   
 - [chinook Dataset](https://www.kaggle.com/datasets/ranasabrii/chinook)
+
 
 
 
