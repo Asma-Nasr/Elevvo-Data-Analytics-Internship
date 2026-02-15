@@ -1,5 +1,5 @@
 # Power BI Dashboard for Retail Insights
-
+ 
 ## Description:    
 1. Dataset (Recommended): Superstore Sales Dataset (Kaggle).
 2. Use Power BI to create an interactive dashboard from a cleaned retail dataset.
@@ -17,5 +17,6 @@
 
 ## Dataset:
 - [Sales Data](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
+
 
 
