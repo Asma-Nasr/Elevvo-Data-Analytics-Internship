@@ -1,5 +1,5 @@
 # Customer Segmentation Using RFM Analysis
- 
+  
 ## Description:
 1. Dataset (Recommended): Online Retail Dataset (UCI).
 2. Use a sales dataset to analyze customer behavior based on:
@@ -21,5 +21,6 @@ Visualize RFM segments with heatmaps or bar charts.
 
 ## Dataset:
 - [Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
+
 
 
