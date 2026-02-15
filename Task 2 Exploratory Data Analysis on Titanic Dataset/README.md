@@ -1,6 +1,6 @@
 # Exploratory Data Analysis on Titanic Dataset
   
-## Description: 
+## Description:  
 1. Dataset (Recommended): Titanic: Machine Learning from Disaster [Kaggle](https://www.kaggle.com/)
 2. Explore the classic Titanic dataset using Python.
 3. Perform data cleaning: handle missing values, convert types.
@@ -18,6 +18,7 @@
 
 ## Dataset
 - [Titanic Dataset](https://www.kaggle.com/datasets/shuofxz/titanic-machine-learning-from-disaster)
+
 
 
 
