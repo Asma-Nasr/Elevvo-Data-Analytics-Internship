@@ -1,0 +1,254 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\setcounter{section}{0}
+\renewcommand\thesection{\arabic{section}}
+
+\begin{document}
+
+\begin{center}
+    \Huge \textbf{Elevvo Internship Report on Task 1 (SQL-Based Analysis of Product Sales)} \\
+    \vspace{0.5cm}
+    \Large Asmaa Nasr \\
+    \vspace{0.5cm}
+    \Large \today
+\end{center}
+
+\section{Introduction}
+This report examines product sales data from the Chinook Database on Kaggle \cite{b1}. SQL queries will be used to address important business questions about top-selling items, regional revenue distribution, and monthly performance. The combination of product and sales information through JOINs will allow for a complete picture of sales trends. The purpose of this analysis is to offer practical information that can improve sales plans and how the business runs.
+
+
+\section{Problem / Task Details}
+Task 1 involves conducting an SQL-based analysis of product sales using the recommended Chinook Database from Kaggle. The objective is to utilize SQL queries to explore key business metrics, such as identifying top-selling products, determining revenue by region, and assessing monthly performance. This analysis will require writing JOIN statements to merge product and sales tables effectively. Participants will work with various SQL tools, including SQLite, PostgreSQL, MySQL, or BigQuery, while focusing on essential topics like SQL queries, JOINs, aggregations, and deriving business insights from raw data. Additionally, a bonus challenge includes employing a window function, such as ROW\_NUMBER or RANK, to enhance the analysis.
+
+
+
+\section{Dataset Details}
+The Chinook database is a substitute for the older Northwind database. It acts as a model of a digital media store, with connected tables for artists, albums, media tracks, invoices, and customers. This design lets people manage and study data about digital media sales. It gives useful information about what customers want, how well sales are doing, and how much inventory is available. The Chinook database helps with SQL training and gives practical experience by showing a real-world example of a digital store \cite{b1}.
+
+\section{SQL Queries}
+This section has the details of the SQL queries in SQLite along with links to their results on GitHub, and images of the results.
+
+
+\subsection{Albums with more than 20 tracks}
+The task is to find which albums contain more than 20 tracks.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/albums_more_than_20_tracks.sql}{Albums with more than 20 tracks Query Link}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{albums_20_tracks.png}
+    \caption{Result of the Albums more than 20 tracks Query}
+\end{figure}
+
+
+
+\subsection{Average invoice by country}
+The task is to find what is the average invoice total for each billing country.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/avg_invoice_value_by_country.sql}{Average invoice by country Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{avg_invoice_country.png}
+    \caption{Result of the Average invoice by country Query}
+\end{figure}
+
+
+\subsection{Average track length per genre}
+The task is to find what is the average track length (in minutes) for each genre.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/avg_track_lenght_per_genre.sq}{Average track length by country Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{genre_track_lenght.png}
+    \caption{Result of the Average track length per genre Query}
+\end{figure}
+
+
+\subsection{Customers who purchased more than 5 genres}
+The task is to find which customers have purchased tracks from at least 5 different genres.
+
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/customers_bought_multiple_genres.sql
+}{Customers who purchased more than 5 genres Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{customers_5_genres.png}
+    \caption{Result of Customers who purchased more than 5 genres the Query}
+\end{figure}
+
+
+\subsection{Customers by country}
+The task is to find how many customers are there in each country.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/customers_by_country.sql}{Customers by country Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{customers_by_country.png}
+    \caption{Result of the customers by country Query}
+\end{figure}
+
+
+\subsection{Customers with multiple purchases}
+The task is to find which customers have made more than 5 invoices.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/customers_with_multiple_purchases.sql}{Customers who made more than 5 invoices Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{customers_5_invoices.png}
+    \caption{Result of the customers who have made more than 5 invoices Query}
+\end{figure}
+
+
+
+\subsection{Employee sales performance}
+The task is to find how much total revenue has each employee generated.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/employee_sales_performance.sql}{Employee sales performance Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{employee_sales_performance.png}
+    \caption{Result of the employee sales performance Query}
+\end{figure}
+
+\subsection{Highest invoice values}
+The task is to list the top 5 invoices with the highest total amounts.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/highest_invoice_values.sql}{Highest invoice values Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{highest_invoice_value.png}
+    \caption{Result of the highest invoice values Query}
+\end{figure}
+
+
+
+\subsection{Monthly revenue}
+The task is to show total revenue per month (YYYY-MM format).
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/monthly_revenue.sql}{Monthly revenue Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{monthly_revenue.png}
+    \caption{Result of the monthly revenue limited to 10 records Query}
+
+\end{figure}
+
+
+\subsection{Most Sold Tracks}
+The task is to find which 10 tracks have been sold the most (by quantity).
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/most_sold_tracks.sql}{Most sold tracks Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{most_sold_tracks.png}
+    \caption{Result of the most sold tracks Query}
+\end{figure}
+
+
+\subsection{Playlist Size}
+The task is to find how many tracks are in each playlist.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/playlist_size.sql}{Playlist size Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{playlist_size.png}
+    \caption{Result of the playlist size Query}
+\end{figure}
+
+
+\subsection{Products with Artist Names}
+The task to find products with artist names.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/products_with_artist_name.sql}{Products with artist names Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{products_artist_name.png}
+    \caption{Result of the products with artist names Query}
+\end{figure}
+
+
+\subsection{Revenue by Country}
+The task is to find the revenue by country.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/revenue_by_country.sql}{Revenue by country Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{revenue_by_country1.png}
+    \caption{Result of the revenue by country Query}
+
+\end{figure}
+
+
+\subsection{Top Artist by Sales}
+The task is to find who are the top 5 artists by total revenue.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/top_artist_by_sales.sql}{Top artist by sales Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{top_artists_sales.png}
+    \caption{Result of the top artist by sales Query}
+
+\end{figure}
+
+
+\subsection{Top Genres by Revenue}
+The task is to find which music genres generate the most revenue.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/top_genres_by_revenue.sql}{Top genres by revenue Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{top_genres_revenue.png}
+    \caption{Result of the top genres by revenue Query}
+
+\end{figure}
+
+
+
+\subsection{Top Selling Products}
+The task is to find which are the top 10 selling products.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/top_selling_products.sql}{Top selling products Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{top_selling_products1.png}
+    \caption{Result of the  top selling products Query}
+
+\end{figure}
+
+
+\subsection{Top Spending Customers}
+The task is to find who are the top 10 customers by total spending.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/top_spending_customers.sql}{Top spending customers Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{top_spending_customers.png}
+    \caption{Result of the top spending customers Query}
+
+\end{figure}
+
+\subsection{Top Track per Genre}
+The task is to find what's the top best selling track for each genre.
+
+You can find the query on GitHub: \href{https://github.com/Asma-Nasr/Elevvo-Data-Analytics-Internship/blob/main/Task\%205\%20SQL-Based\%20Analysis\%20of\%20Product\%20Sales/SQL\%20Queries/top_1_track_per_genre.sql}{Top track per genre Query Link}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{top_1_track_per_genre.png}
+    \caption{Result of the top track per genre Query}
+
+\end{figure}
+
+\section{Conclusion}
+This internship task used SQL analysis on the Chinook Database to find key insights about product sales. I ran queries to find top sellers, look at revenue by area, chart monthly patterns, and many more. The results showed customer behavior and typical invoice structures, giving a broad look at sales activity. This method, based on data, can help make smarter choices to boost sales and make operations better in the digital media space. Later studies might look at more specific groups of customers.
+
+
+\begin{thebibliography}{99}
+
+\bibitem{b1} R. Sabrii, "Chinook Database," Kaggle. [Online]. Available: \url{https://www.kaggle.com/datasets/ranasabrii/chinook}  [Accessed: Feb. 4, 2026].  
+
+\end{thebibliography}
+
+\end{document}
