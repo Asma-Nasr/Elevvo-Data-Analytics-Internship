@@ -9,7 +9,7 @@
 
 ## Tools & Libraries:
 - Python | Pandas | Seaborn or Matplotlib
-
+ 
 ## Covered Topics:
 - EDA | Data types & missing data |  Data visualization
 
