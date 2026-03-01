@@ -7,7 +7,7 @@
 4. Extract meaningful insights about respondent (a person who answered the survey ) behavior  or preferences.
 
 ## Tools & Libraries:
-- Python or Excel
+- Python or Excel 
  
 ## Covered Topics
 - Data cleaning | Categorical handling |  Reporting
